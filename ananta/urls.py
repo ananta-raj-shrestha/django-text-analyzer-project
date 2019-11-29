@@ -20,7 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name = 'index'),
     path('analyze/',views.analyze,name = 'analyze'),
-    path('about/',views.about,name = 'about')
+    path('about/',views.about,name = 'about'),
+    path('search/',views.search,name = 'search')
       #path('removenewline/',views.removenewline,name = 'removenewline'),
        #path('removespace/',views.removespace,name = 'removespace')
 ]
